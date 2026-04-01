@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-arabic: "Rakkas", serif;
+    --font-baiofont:"Amiri", serif;
+    --color-mainColor: #0F172A ;
+    --color-cardColor: #1E293B ;
+    --color-dashColor: #0F172A ;
+    --color-contantColor: #0F172A ;
+    --color-baio:#CBD5E1;
+
+}
