@@ -1,6 +1,4 @@
-import React from "react";
 import Header from "./Header";
-import Loginpage from "./Loginpage";
 import Dashbourd from "./Dashbourd";
 import Tasklist from "./Tasklist";
 
@@ -10,9 +8,9 @@ export default function Homepage() {
       <Header />
       <div className="bg-mainColor flex justify-center w-full  ">
         <div className="container flex flex-col">
-          <div className="w-full bg-cardColor rounded-2xl  block  md:flex justify-between items-center p-7 mt-5">
+          <div className="w-full bg-cardColor rounded-2xl  block  md:flex justify-between items-center p-7 mt-5 flex-row-reverse ">
             <div className="flex flex-col text-end  ">
-              <h1 className="font-baiofont text-3xl ">🤗!اهلا بك يا محمد </h1>
+              <h1 className="font-baiofont text-3xl ">👋!اهلا بك يا محمد </h1>
               <p className="font-baiofont text-[16px] text-baio">
                 . ! لقد اتمت %75 من عاداتك اليوم استمر في التالق
               </p>
@@ -32,8 +30,6 @@ export default function Homepage() {
                 </p>
               </div>
             </div>
-
-          
           </div>
           <div className="w-full h-150 block md:flex mt-5 bg-mainColor">
             <Tasklist />

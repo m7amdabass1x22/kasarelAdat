@@ -11,53 +11,55 @@ export default function Tasklist() {
             <h1>قائمه المهام اليوميه</h1>
             <TbListCheck className="text-[#6366F1] text-[20px]" />
           </div>
-
-          <div className="w-full flex flex-col justify-end overflow-y-auto gap-5">
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">شراء مكملات غذائيه </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">قرائه كتاب </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont"> صلاه ال5 فروض</h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">التمرين اليومي </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont"> شرب الماء </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">علاج التعفن الدماغي </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">الجري لمده نصفف ساعه</h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont"> النوم لمده 8 ساعات يوميا </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont"> ايقاف التدخين </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">شراء مستلزمات الاكل الصحي </h1>
-              <input type="checkbox" />
-            </div>
-            <div className="flex justify-end gap-3">
-              <h1 className="font-baiofont">قرائه 10 صفاحات من القران </h1>
-              <input type="checkbox" />
+          <div className="w-full h-100 flex flex-col justify-end overflow-hidden gap-5">
+            <div className="w-full overflow-auto flex flex-col gap-5">
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">شراء مكملات غذائيه </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">قرائه كتاب </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont"> صلاه ال5 فروض</h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">التمرين اليومي </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont"> شرب الماء </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">علاج التعفن الدماغي </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">الجري لمده نصفف ساعه</h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont"> النوم لمده 8 ساعات يوميا </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont"> ايقاف التدخين </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">شراء مستلزمات الاكل الصحي </h1>
+                <input type="checkbox" />
+              </div>
+              <div className="flex justify-end gap-3">
+                <h1 className="font-baiofont">قرائه 10 صفاحات من القران </h1>
+                <input type="checkbox" />
+              </div>
             </div>
           </div>
+
           <div className="w-full flex flex-col justify-center items-center ">
             <hr className="border-gray-600 w-full" />
             <div className=" flex justify-center items-center gap-2 p-2 text-baio">

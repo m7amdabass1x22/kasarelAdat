@@ -6,10 +6,9 @@ import Newacount from "./Newacount";
 import Tasklist from "./Tasklist";
 import Dashbourd from "./Dashbourd";
 
-
 export default function App() {
   return (
-    <>
+    <div className="bg-mainColor">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -17,9 +16,12 @@ export default function App() {
           <Route path="/Newacount" element={<Newacount />} />
           <Route path="/Tasklist" element={<Tasklist />} />
           <Route path="/Dashbourd" element={<Dashbourd />} />
-
+          <Route
+            path="*"
+            element={<h1> please go back we are not ready||error 404 !!!!</h1>}
+          />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
